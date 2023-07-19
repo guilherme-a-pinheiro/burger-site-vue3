@@ -3,11 +3,16 @@
         <h1>Olá Vue!</h1>
         <p>Meu nome é: {{ name }} e trabalho como {{ profissao }}</p>
         <MultiplosEventos />
+        <Reutilizacao />
+        <Reutilizacao />
+        <Reutilizacao />
+        <Reutilizacao />
     </div>
 </template>
 
 <script>
 import MultiplosEventos from './MultiplosEventos'
+import Reutilizacao from './Reutilizacao'
 
     export default {
         name: 'PrimeiroComponente',
@@ -18,7 +23,8 @@ import MultiplosEventos from './MultiplosEventos'
             }
         },
         components: {
-            MultiplosEventos
+            MultiplosEventos,
+            Reutilizacao
         }
     }
 </script>
