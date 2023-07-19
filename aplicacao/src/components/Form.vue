@@ -11,9 +11,15 @@
                 </div>
                 <div>
                     <Submit />
+                    <div>
+                        Nome: {{ name }}
+                        <div>
+                            Email: {{ email }}
+                        </div>
+                    </div>
                 </div>
             </div>
-        </form>    
+        </form>   
     </div>
 </template>
 
