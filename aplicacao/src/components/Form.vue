@@ -1,13 +1,15 @@
 <template>
     <form>
         <div>
-            <InputText />
-        </div>
-        <div>
-            <InputText />
-        </div>
-        <div>
-            <Submit />
+            <div>
+                <InputText />
+            </div>
+            <div>
+                <InputText />
+            </div>
+            <div>
+                <Submit />
+            </div>
         </div>
     </form>    
 </template>
