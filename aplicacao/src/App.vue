@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <Header esta_logado="false" />
     <h1>Olá mundo!</h1>
     <PrimeiroComponente />
     <LifeCycle />
